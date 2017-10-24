@@ -1,9 +1,13 @@
-$(document).ready(function() {
-  var over18 = confirm("Are you over 18? Click OK for yes or Cancel for no.");
+$(document).ready(function(){
+  $("#age-select").submit(function(event) {
+    event.preventDefault();
+});
 
-  if (over21) {
-    $('#drinks').show();
-  } else {
-    $('#under-21').show();
-  }
+$(document).ready(function) {
+    } if ('#value' > 18) {
+      $('#ofage').show();
+    } else if ('#value' <18) {
+      $('#tooyoung').show();
+    } else if ('#value' === 18) {
+      $('#eighteen').show();
 });
